@@ -15,6 +15,7 @@ public class ReversingString {
 	
 	static String test="";
 	
+	StringBuilder sb = new StringBuilder();
 	
 	/**
 	 * This method is taking the string converting it to char array
@@ -30,6 +31,7 @@ public class ReversingString {
 		
 		for(int i =charset.length-1;i>=0;i--)
 		{
+			
 			test=test+charset[i];
 			
 		}
